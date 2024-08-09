@@ -56,9 +56,9 @@ modrinth {
     projectId.set("tnttime")
     versionNumber.set("mc$version")
 
-    versionName.set("Tnt Time $version for 1.20 and 1.20.1")
+    versionName.set("Tnt Time $version 1.21")
 
     versionType.set("release")
-    gameVersions.addAll("1.21")
+    gameVersions.addAll("1.21.X")
     uploadFile.set(tasks["remapJar"])
 }
