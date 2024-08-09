@@ -7,16 +7,17 @@
   "name": "TNT Time",
   "description": "Displays time left to the TNT explosion above primed TNT!",
   "authors": [
-    "Shateq",
+    "Tatertot5 - Update",
+    "Shateq - formal",
     "Sk1erLLC - formal"
   ],
   "contributors": [
     "moehreag"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/tnttime",
-    "sources": "https://github.dev/shateq/TNTTime",
-    "issues": "https://github.com/shateq/TNTTime/issues"
+    "homepage": "https://github.com/Tatertot5s/TNTTime",
+    "sources": "https://github.com/Tatertot5s/TNTTime",
+    "issues": "https://github.com/Tatertot5s/TNTTime/issues"
   },
   "environment": "client",
   "entrypoints": {
@@ -29,6 +30,6 @@
   ],
   "depends": {
     "fabricloader": ">=0.16",
-    "minecraft": "1.21.X"
+    "minecraft": "1.21"
   }
 }
