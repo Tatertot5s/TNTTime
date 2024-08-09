@@ -1,4 +1,4 @@
-<img src="assets/log.png" width="256"  alt="Project's logo"/>
+<img src="assets/logo.png" width="256"  alt="Project's logo"/>
 
 # TOT Time
 
