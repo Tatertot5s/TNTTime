@@ -24,6 +24,6 @@ public abstract class TntEntityRendererMixin extends EntityRenderer<TntEntity> {
     )
     private void renderTntLabel(TntEntity entity, float yaw, float delta, MatrixStack matrixStack,
                                 VertexConsumerProvider vertexConsumerProvider, int light, CallbackInfo ci) {
-        super.renderLabelIfPresent(entity, TntTimeMod.getTime(entity.getFuse()), matrixStack, vertexConsumerProvider, light);
+        super.renderLabelIfPresent(entity, TntTimeMod.getTime(entity.getFuse()), matrixStack, vertexConsumerProvider, light, 1f);
     }
 }
